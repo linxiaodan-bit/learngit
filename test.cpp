@@ -5,6 +5,8 @@
 static pthread_mutex_t mtx = PTHREAD_MUTEX_INITIALIZER;
 static pthread_cond_t cond = PTHREAD_COND_INITIALIZER;
  
+
+//修改 
 struct node {
 int n_number;
 struct node *n_next;
